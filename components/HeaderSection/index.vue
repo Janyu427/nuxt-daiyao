@@ -23,7 +23,7 @@
         <div class="mobile_nav" :class="{show: isToggled}">
             <ul class="mobile_nav_list" >
                 <li class="mobile_list" :class="{show: isToggled}" v-for="item of navList.ListBox" :key="item.list">
-                    <NuxtLink  class="link" :to="item.link">{{ item.list }}</NuxtLink>
+                    <NuxtLink  class="link" :to="item.link" @click="mobileMenuToggle">{{ item.list }}</NuxtLink>
                 </li>
             </ul>
         </div>
