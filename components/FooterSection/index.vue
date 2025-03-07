@@ -29,7 +29,7 @@
         </div>
         <div class="footer_bottom">
             <div class="container">
-                <p class="copyright">test @<span id="year"></span> {{ companyInfoData.enName }} All Rights Reserved.</p>
+                <p class="copyright">@<span id="year"></span> {{ companyInfoData.enName }} All Rights Reserved.</p>
             </div>
         </div>
     </footer>
